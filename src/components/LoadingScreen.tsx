@@ -7,9 +7,9 @@ interface LoadingScreenProps {
 
 // Critical images to preload
 const defaultImagesToPreload = [
-  '/categories-map.jpg',
-  '/hero-phone.jpg',
-  '/ai-detail.jpg',
+  '/leirz-landing/categories-map.jpg',
+  '/leirz-landing/hero-phone.jpg',
+  '/leirz-landing/ai-detail.jpg',
 ];
 
 const LoadingScreen: React.FC<LoadingScreenProps> = ({
@@ -96,7 +96,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
         <div style={styles.content}>
           {/* Brand Logo */}
           <div style={styles.logoContainer}>
-            <img src="/logo.png" alt="Leirz" style={styles.logoImage} />
+            <img src="/leirz-landing/logo.png" alt="Leirz" style={styles.logoImage} />
           </div>
 
           {/* Progress Bar */}

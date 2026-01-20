@@ -613,7 +613,7 @@ const Hero: React.FC = () => {
                   {/* Screen */}
                   <div style={styles.phoneScreen}>
                     <img
-                      src="/ai-detail.jpg"
+                      src="/leirz-landing/ai-detail.jpg"
                       alt="Layers: Tales IRL app - Discover history around you"
                       style={styles.phoneImage}
                       loading="eager"

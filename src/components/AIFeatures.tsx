@@ -684,7 +684,7 @@ const PhoneMockupCompact: React.FC = () => {
 
             {/* Screenshot */}
             <img
-              src="/hero-phone.jpg"
+              src="/leirz-landing/hero-phone.jpg"
               alt="AI-generated marker detail card"
               style={styles.phoneImage}
               loading="lazy"

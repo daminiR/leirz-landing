@@ -169,7 +169,7 @@ const Categories: React.FC<CategoriesProps> = ({ className = '' }) => {
                     <div className="phone-camera"></div>
                   </div>
                   <img
-                    src="/categories-map.jpg"
+                    src="/leirz-landing/categories-map.jpg"
                     alt="Dubai map with category filters"
                     className="phone-screen-image"
                     loading="lazy"
