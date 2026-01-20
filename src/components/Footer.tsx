@@ -163,6 +163,21 @@ const Footer: React.FC = () => {
           >
             Terms
           </a>
+          <span style={styles.separator}>|</span>
+          <a
+            href="mailto:layers@automationcore.com"
+            style={styles.link}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = '#FFA500';
+              e.currentTarget.style.transform = 'translateY(-1px)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = 'rgba(255, 255, 255, 0.6)';
+              e.currentTarget.style.transform = 'translateY(0)';
+            }}
+          >
+            Contact
+          </a>
         </div>
 
         <p style={styles.copyright}>

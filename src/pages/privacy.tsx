@@ -992,7 +992,7 @@ const PrivacyPolicy: React.FC = () => {
                 Go to Settings {">"} Privacy {">"} Download My Data in the app.
               </li>
               <li style={styles.listItem}>
-                Or email privacy@automationcore.com with your request.
+                Or email support@automationcore.com with your request.
               </li>
               <li style={styles.listItem}>
                 We will provide your data within 30 days in a commonly used format (JSON/CSV).
@@ -1008,7 +1008,7 @@ const PrivacyPolicy: React.FC = () => {
                 Go to Settings {">"} Account {">"} Delete Account in the app.
               </li>
               <li style={styles.listItem}>
-                Or email privacy@automationcore.com to request deletion.
+                Or email support@automationcore.com to request deletion.
               </li>
               <li style={styles.listItem}>
                 Deletion will be completed within 30 days (see Section 7 for retention exceptions).
@@ -1065,7 +1065,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>8.6 Right to Restrict Processing</h3>
             <p style={styles.paragraph}>
               You can request that we limit how we process your data in certain circumstances.
-              Contact privacy@automationcore.com to make this request.
+              Contact support@automationcore.com to make this request.
             </p>
           </section>
 
@@ -1136,7 +1136,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>9.3 Data Controller</h3>
             <p style={styles.paragraph}>
               Automation Core, Inc. is the data controller for personal data collected through the Service.
-              For GDPR-related inquiries, contact us at privacy@automationcore.com.
+              For GDPR-related inquiries, contact us at support@automationcore.com.
             </p>
 
             <h3 style={styles.subsectionTitle}>9.4 Supervisory Authority</h3>
@@ -1203,7 +1203,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                Email privacy@automationcore.com with your request.
+                Email support@automationcore.com with your request.
               </li>
               <li style={styles.listItem}>
                 Use the in-app privacy request feature in Settings {">"} Privacy.
@@ -1259,7 +1259,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>11.3 Parental Rights</h3>
             <p style={styles.paragraph}>
               If you are a parent or guardian and believe your child under 13 has provided us with
-              personal information, please contact us immediately at privacy@automationcore.com. You have
+              personal information, please contact us immediately at support@automationcore.com. You have
               the right to:
             </p>
             <ul style={styles.list}>
@@ -1398,7 +1398,7 @@ const PrivacyPolicy: React.FC = () => {
                 Do not share your account credentials with others.
               </li>
               <li style={styles.listItem}>
-                Report any suspicious activity to security@automationcore.com.
+                Report any suspicious activity to support@automationcore.com.
               </li>
             </ul>
           </section>
@@ -1455,7 +1455,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>13.3 Policy Version History</h3>
             <p style={styles.paragraph}>
               We maintain an archive of previous policy versions. You can request access to previous
-              versions by contacting privacy@automationcore.com.
+              versions by contacting support@automationcore.com.
             </p>
           </section>
 
@@ -1472,7 +1472,7 @@ const PrivacyPolicy: React.FC = () => {
               <div style={styles.contactGrid} className="privacy-contact-grid">
                 <div style={styles.contactItem}>
                   <p style={styles.contactLabel}>Privacy Inquiries</p>
-                  <p style={styles.contactValue}>privacy@automationcore.com</p>
+                  <p style={styles.contactValue}>support@automationcore.com</p>
                 </div>
                 <div style={styles.contactItem}>
                   <p style={styles.contactLabel}>General Support</p>
