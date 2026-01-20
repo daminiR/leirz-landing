@@ -185,7 +185,7 @@ const Navigation: React.FC<NavigationProps> = ({
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >
-          <img src="/leirz-landing/logo-icon.svg" alt="" className={styles.logoIcon} />
+          <img src="/leirz-landing/logo-icon.png" alt="" className={styles.logoIcon} />
           <span className={styles.logoText}>{brandName}</span>
         </motion.a>
 

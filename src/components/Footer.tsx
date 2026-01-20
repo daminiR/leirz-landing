@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
 
       <div style={styles.container}>
         <div style={styles.logo}>
-          <img src="/leirz-landing/logo-icon.svg" alt="" style={styles.logoIcon} />
+          <img src="/leirz-landing/logo-icon.png" alt="" style={styles.logoIcon} />
           <span style={styles.logoText}>Layers</span>
         </div>
         <p style={styles.tagline}>Discover History Everywhere</p>
