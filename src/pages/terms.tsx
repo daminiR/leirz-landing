@@ -231,8 +231,8 @@ const TermsOfService: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Terms of Service - Leirz</title>
-        <meta name="description" content="Terms of Service for Leirz - Read our terms and conditions for using the Leirz app and services." />
+        <title>Terms of Service - Layers</title>
+        <meta name="description" content="Terms of Service for Layers - Read our terms and conditions for using the Layers app and services." />
         <style type="text/css">{globalStyles}</style>
       </Helmet>
 
@@ -303,9 +303,9 @@ const TermsOfService: React.FC = () => {
           <main style={styles.content} className="terms-content">
             <div style={styles.introBox} className="terms-intro-box">
             <p style={styles.introText}>
-              Welcome to Leirz. These Terms of Service ("Terms") govern your access to and use of
-              the Leirz mobile application ("App"), website, and related services (collectively,
-              the "Service"). Leirz is a historical discovery platform featuring over 600,000 historical
+              Welcome to Layers. These Terms of Service ("Terms") govern your access to and use of
+              the Layers mobile application ("App"), website, and related services (collectively,
+              the "Service"). Layers is a historical discovery platform featuring over 600,000 historical
               markers across more than 1,500 cities worldwide. Please read these Terms carefully before
               using our Service.
             </p>
@@ -315,13 +315,13 @@ const TermsOfService: React.FC = () => {
           <section id="acceptance" style={styles.section} className="terms-section">
             <h2 style={styles.sectionTitle} className="terms-section-title">1. Acceptance of Terms</h2>
             <p style={styles.paragraph}>
-              By downloading, installing, accessing, or using the Leirz App, you acknowledge that
+              By downloading, installing, accessing, or using the Layers App, you acknowledge that
               you have read, understood, and agree to be bound by these Terms of Service and our
               Privacy Policy. If you do not agree to these Terms, you must not access or use the Service.
             </p>
             <p style={styles.paragraph}>
               These Terms constitute a legally binding agreement between you ("User," "you," or "your")
-              and Leirz ("Company," "we," "us," or "our"). By using the Service, you represent that you
+              and Automation Core, Inc. ("Company," "we," "us," or "our"). By using the Service, you represent that you
               are at least 13 years of age, or the minimum age required in your jurisdiction, whichever
               is higher. If you are between 13 and 18 years of age (or the age of majority in your
               jurisdiction), you must have parental or guardian consent to use the Service.
@@ -342,7 +342,7 @@ const TermsOfService: React.FC = () => {
           <section id="description" style={styles.section} className="terms-section">
             <h2 style={styles.sectionTitle} className="terms-section-title">2. Description of Service</h2>
             <p style={styles.paragraph}>
-              Leirz is a historical discovery and education platform that enables users to explore
+              Layers is a historical discovery and education platform that enables users to explore
               and learn about historical events, figures, locations, and landmarks. Our comprehensive
               database includes over 600,000 historical markers across more than 1,500 cities worldwide.
             </p>
@@ -436,7 +436,7 @@ const TermsOfService: React.FC = () => {
                 Not share your account credentials with any third party.
               </li>
               <li style={styles.listItem}>
-                Notify us immediately at support@leirz.com of any unauthorized use of your account
+                Notify us immediately at support@automationcore.com of any unauthorized use of your account
                 or any other security breach.
               </li>
               <li style={styles.listItem}>
@@ -457,7 +457,7 @@ const TermsOfService: React.FC = () => {
             <h3 style={styles.subsectionTitle}>3.4 Account Deletion</h3>
             <p style={styles.paragraph}>
               You may delete your account at any time through the App settings or by contacting us
-              at support@leirz.com. Upon account deletion, we will delete or anonymize your personal
+              at support@automationcore.com. Upon account deletion, we will delete or anonymize your personal
               data in accordance with our Privacy Policy, except where we are required to retain
               certain information for legal or regulatory purposes.
             </p>
@@ -469,7 +469,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>4.1 Subscription Plans</h3>
             <p style={styles.paragraph}>
-              Leirz offers premium subscription plans ("Premium") that provide access to enhanced
+              Layers offers premium subscription plans ("Premium") that provide access to enhanced
               features beyond the free tier. Premium plans are available in the following options:
             </p>
             <ul style={styles.list}>
@@ -575,7 +575,7 @@ const TermsOfService: React.FC = () => {
               </li>
               <li style={styles.listItem}>
                 In exceptional circumstances, we may, at our sole discretion, provide refunds or
-                credits. Please contact support@leirz.com for refund inquiries.
+                credits. Please contact support@automationcore.com for refund inquiries.
               </li>
             </ul>
           </section>
@@ -679,7 +679,7 @@ const TermsOfService: React.FC = () => {
             <div style={styles.warningBox}>
               <h3 style={styles.warningTitle}>Important Notice Regarding AI-Generated Content</h3>
               <p style={styles.warningText}>
-                Leirz utilizes advanced artificial intelligence technology
+                Layers utilizes advanced artificial intelligence technology
                 to power our "What Happened Here?" search feature and provide historical information.
                 While we strive for accuracy, AI-generated content may contain errors, omissions,
                 inaccuracies, or biases. All AI-generated content is provided for educational and
@@ -717,7 +717,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>6.2 Limitations on Use</h3>
             <p style={styles.paragraph}>
-              AI-generated content provided by Leirz should NOT be:
+              AI-generated content provided by Layers should NOT be:
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
@@ -791,7 +791,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>7.3 Community Contributions and Voting</h3>
             <p style={styles.paragraph}>
-              Leirz includes community features that allow users to vote on historical markers and
+              Layers includes community features that allow users to vote on historical markers and
               content. By participating in these features, you agree that:
             </p>
             <ul style={styles.list}>
@@ -801,7 +801,7 @@ const TermsOfService: React.FC = () => {
               </li>
               <li style={styles.listItem}>
                 Community votes influence content visibility and rankings but do not constitute
-                academic verification, professional historical validation, or endorsement by Leirz.
+                academic verification, professional historical validation, or endorsement by Automation Core, Inc.
               </li>
               <li style={styles.listItem}>
                 You will not manipulate voting through multiple accounts, coordinated voting schemes,
@@ -858,16 +858,16 @@ const TermsOfService: React.FC = () => {
           <section id="intellectual-property" style={styles.section} className="terms-section">
             <h2 style={styles.sectionTitle} className="terms-section-title">8. Intellectual Property</h2>
 
-            <h3 style={styles.subsectionTitle}>8.1 Leirz Intellectual Property</h3>
+            <h3 style={styles.subsectionTitle}>8.1 Automation Core, Inc. Intellectual Property</h3>
             <p style={styles.paragraph}>
-              The Service and its entire contents, features, and functionality are owned by Leirz,
+              The Service and its entire contents, features, and functionality are owned by Automation Core, Inc.,
               its licensors, or other providers and are protected by United States and international
               copyright, trademark, patent, trade secret, and other intellectual property or proprietary
               rights laws. This includes, but is not limited to:
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                The Leirz name, logo, and all related names, logos, product and service names, designs,
+                The Layers name, logo, and all related names, logos, product and service names, designs,
                 and slogans.
               </li>
               <li style={styles.listItem}>
@@ -952,7 +952,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>9.1 Consent to Location Access</h3>
             <p style={styles.paragraph}>
-              Leirz's core functionality relies on location-based services to provide you with
+              Layers' core functionality relies on location-based services to provide you with
               relevant historical information about your surroundings. By using the Service, you
               consent to our collection and use of your location data as described in these Terms
               and our Privacy Policy.
@@ -1055,7 +1055,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>10.2 Third-Party Terms</h3>
             <p style={styles.paragraph}>
-              Your use of any third-party services integrated with Leirz is subject to the terms,
+              Your use of any third-party services integrated with Layers is subject to the terms,
               conditions, and privacy policies of those third parties. We encourage you to review
               the applicable terms and policies of any third-party services you use in connection
               with our Service.
@@ -1094,7 +1094,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>11.1 No Warranty</h3>
             <p style={styles.paragraph}>
-              To the fullest extent permitted by applicable law, Leirz, its affiliates, licensors,
+              To the fullest extent permitted by applicable law, Automation Core, Inc., its affiliates, licensors,
               and service providers make no warranties or representations about:
             </p>
             <ul style={styles.list}>
@@ -1161,7 +1161,7 @@ const TermsOfService: React.FC = () => {
             <h2 style={styles.sectionTitle} className="terms-section-title">12. Limitation of Liability</h2>
             <div style={styles.disclaimerBox}>
               <p style={styles.disclaimerText}>
-                TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LEIRZ, ITS
+                TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL AUTOMATION CORE, INC., ITS
                 AFFILIATES, LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS
                 BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
                 PUNITIVE DAMAGES, REGARDLESS OF THE CAUSE OF ACTION OR THE THEORY OF LIABILITY.
@@ -1205,14 +1205,14 @@ const TermsOfService: React.FC = () => {
             <p style={styles.paragraph}>
               IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATING
               TO THESE TERMS OR YOUR USE OF THE SERVICE EXCEED THE GREATER OF: (A) THE AMOUNT PAID
-              BY YOU TO LEIRZ DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING
+              BY YOU TO AUTOMATION CORE, INC. DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING
               RISE TO THE CLAIM; OR (B) ONE HUNDRED DOLLARS ($100 USD).
             </p>
 
             <h3 style={styles.subsectionTitle}>12.3 Basis of the Bargain</h3>
             <p style={styles.paragraph}>
               THE LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF
-              THE BARGAIN BETWEEN LEIRZ AND YOU. THE SERVICE WOULD NOT BE PROVIDED WITHOUT SUCH
+              THE BARGAIN BETWEEN AUTOMATION CORE, INC. AND YOU. THE SERVICE WOULD NOT BE PROVIDED WITHOUT SUCH
               LIMITATIONS.
             </p>
 
@@ -1229,7 +1229,7 @@ const TermsOfService: React.FC = () => {
           <section id="indemnification" style={styles.section} className="terms-section">
             <h2 style={styles.sectionTitle} className="terms-section-title">13. Indemnification</h2>
             <p style={styles.paragraph}>
-              You agree to defend, indemnify, and hold harmless Leirz and its parent, subsidiaries,
+              You agree to defend, indemnify, and hold harmless Automation Core, Inc. and its parent, subsidiaries,
               affiliates, licensors, service providers, partners, and their respective officers,
               directors, employees, contractors, agents, licensors, suppliers, successors, and
               assigns (collectively, the "Indemnified Parties") from and against any and all claims,
@@ -1287,7 +1287,7 @@ const TermsOfService: React.FC = () => {
                 We are required to do so by law or legal process.
               </li>
               <li style={styles.listItem}>
-                We believe your conduct may expose Leirz, other users, or third parties to legal liability.
+                We believe your conduct may expose Automation Core, Inc., other users, or third parties to legal liability.
               </li>
               <li style={styles.listItem}>
                 We discontinue providing the Service in your region.
@@ -1307,7 +1307,7 @@ const TermsOfService: React.FC = () => {
                 Using the account deletion feature in the App settings.
               </li>
               <li style={styles.listItem}>
-                Contacting us at support@leirz.com with your termination request.
+                Contacting us at support@automationcore.com with your termination request.
               </li>
               <li style={styles.listItem}>
                 Uninstalling the App (note: this alone does not delete your account or cancel
@@ -1360,7 +1360,7 @@ const TermsOfService: React.FC = () => {
             </p>
             <p style={styles.paragraph}>
               To the extent that any lawsuit or court proceeding is permitted under these Terms, you
-              and Leirz agree to submit to the exclusive personal jurisdiction of the state and federal
+              and Automation Core, Inc. agree to submit to the exclusive personal jurisdiction of the state and federal
               courts located in New Castle County, Delaware, for the purpose of litigating all such
               disputes. You waive any objection based on lack of personal jurisdiction, place of
               residence, improper venue, or forum non conveniens in any such action.
@@ -1385,7 +1385,7 @@ const TermsOfService: React.FC = () => {
             <h3 style={styles.subsectionTitle}>16.1 Informal Resolution</h3>
             <p style={styles.paragraph}>
               Before initiating any formal dispute resolution proceeding, you agree to first contact
-              us at legal@leirz.com to attempt to resolve any dispute informally. We will attempt to
+              us at legal@automationcore.com to attempt to resolve any dispute informally. We will attempt to
               resolve the dispute by contacting you via email. If the dispute is not resolved within
               sixty (60) days of your initial contact, either party may proceed with formal dispute
               resolution as described below.
@@ -1418,9 +1418,9 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>16.3 Class Action Waiver</h3>
             <p style={styles.paragraph}>
-              YOU AND LEIRZ AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS
+              YOU AND AUTOMATION CORE, INC. AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS
               INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR
-              REPRESENTATIVE PROCEEDING. Unless both you and Leirz agree otherwise, the arbitrator
+              REPRESENTATIVE PROCEEDING. Unless both you and Automation Core, Inc. agree otherwise, the arbitrator
               may not consolidate more than one person's claims and may not otherwise preside over
               any form of a representative or class proceeding.
             </p>
@@ -1446,7 +1446,7 @@ const TermsOfService: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>16.5 Opt-Out</h3>
             <p style={styles.paragraph}>
-              You may opt out of the agreement to arbitrate by sending written notice to legal@leirz.com
+              You may opt out of the agreement to arbitrate by sending written notice to legal@automationcore.com
               within thirty (30) days of first accepting these Terms. Your notice must include your
               name, address, email address, and a clear statement that you wish to opt out of arbitration.
               If you opt out, you may still resolve disputes through the courts as described in
@@ -1500,26 +1500,26 @@ const TermsOfService: React.FC = () => {
               Service, or our practices, please contact us:
             </p>
             <div style={styles.contactBox}>
-              <p style={styles.contactText}><strong>Leirz</strong></p>
+              <p style={styles.contactText}><strong>Automation Core, Inc.</strong></p>
               <p style={styles.contactText}>
-                <strong>Legal Inquiries:</strong> legal@leirz.com
+                <strong>Legal Inquiries:</strong> legal@automationcore.com
               </p>
               <p style={styles.contactText}>
-                <strong>General Support:</strong> support@leirz.com
+                <strong>General Support:</strong> support@automationcore.com
               </p>
             </div>
             <p style={styles.paragraph}>
-              For legal notices, please send correspondence to legal@leirz.com with "Legal Notice"
+              For legal notices, please send correspondence to legal@automationcore.com with "Legal Notice"
               in the subject line. We will respond to legal inquiries within thirty (30) days of receipt.
             </p>
             <p style={styles.paragraph}>
               For general support inquiries, including questions about your account, subscriptions,
-              or technical issues, please contact support@leirz.com. Our support team typically
+              or technical issues, please contact support@automationcore.com. Our support team typically
               responds within 48 business hours.
             </p>
             <p style={styles.paragraph}>
               To report violations of these Terms, abuse, or inappropriate content, please email
-              support@leirz.com with "Report Violation" in the subject line and include as much
+              support@automationcore.com with "Report Violation" in the subject line and include as much
               detail as possible about the issue.
             </p>
           </section>
@@ -1536,7 +1536,7 @@ const TermsOfService: React.FC = () => {
         <footer style={styles.footer}>
           <div style={styles.footerContent}>
             <p style={styles.footerText}>
-              &copy; {new Date().getFullYear()} Leirz. All rights reserved.
+              &copy; {new Date().getFullYear()} Layers. All rights reserved.
             </p>
             <div style={styles.footerLinks}>
               <Link to="/" style={styles.footerLink} className="terms-footer-link">Home</Link>

@@ -123,7 +123,7 @@ const Footer: React.FC = () => {
       <div style={styles.container}>
         <div style={styles.logo}>
           <img src="/logo-icon.svg" alt="" style={styles.logoIcon} />
-          <span style={styles.logoText}>Leirz</span>
+          <span style={styles.logoText}>Layers</span>
         </div>
         <p style={styles.tagline}>Discover History Everywhere</p>
         <p style={styles.footerCopy}>
@@ -166,7 +166,7 @@ const Footer: React.FC = () => {
         </div>
 
         <p style={styles.copyright}>
-          © {currentYear} Leirz. All rights reserved.
+          © {currentYear} Layers. All rights reserved.
         </p>
       </div>
     </footer>

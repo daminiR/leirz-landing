@@ -241,8 +241,8 @@ const PrivacyPolicy: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy - Leirz</title>
-        <meta name="description" content="Privacy Policy for Leirz - Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy - Layers</title>
+        <meta name="description" content="Privacy Policy for Layers - Learn how we collect, use, and protect your personal information." />
         <style type="text/css">{globalStyles}</style>
       </Helmet>
 
@@ -313,9 +313,9 @@ const PrivacyPolicy: React.FC = () => {
           <main style={styles.content} className="privacy-content">
             <div style={styles.introBox} className="privacy-intro-box">
             <p style={styles.introText}>
-              At Leirz, we are committed to protecting your privacy and ensuring transparency
+              At Automation Core, Inc., we are committed to protecting your privacy and ensuring transparency
               about how we collect, use, and safeguard your personal information. This Privacy Policy
-              explains our data practices for the Leirz mobile application - a historical discovery
+              explains our data practices for the Layers mobile application - a historical discovery
               platform featuring 600,000+ markers across 1,500+ cities worldwide, AI-powered search,
               location-based features, and community engagement tools.
             </p>
@@ -325,13 +325,13 @@ const PrivacyPolicy: React.FC = () => {
           <section id="introduction" style={styles.section} className="privacy-section">
             <h2 style={styles.sectionTitle} className="privacy-section-title">1. Introduction</h2>
             <p style={styles.paragraph}>
-              Leirz ("Company," "we," "us," or "our") operates a historical discovery and education
+              Automation Core, Inc. ("Company," "we," "us," or "our") operates a historical discovery and education
               platform that helps users explore and learn about historical events, figures, and locations
               around the world. Our app contains over 600,000 historical markers across more than 1,500
               cities, powered by AI technology and community contributions.
             </p>
             <p style={styles.paragraph}>
-              This Privacy Policy applies to all users of the Leirz mobile application and related
+              This Privacy Policy applies to all users of the Layers mobile application and related
               services (collectively, the "Service"). By using our Service, you consent to the collection,
               use, and disclosure of your information as described in this Privacy Policy. If you do not
               agree with our practices, please do not use our Service.
@@ -593,7 +593,7 @@ const PrivacyPolicy: React.FC = () => {
               </p>
             </div>
 
-            <h3 style={styles.subsectionTitle}>4.1 How AI Powers Leirz</h3>
+            <h3 style={styles.subsectionTitle}>4.1 How AI Powers Layers</h3>
             <p style={styles.paragraph}>
               Our AI integration enables powerful historical discovery capabilities:
             </p>
@@ -674,9 +674,9 @@ const PrivacyPolicy: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>4.5 AI Training and Improvement</h3>
             <p style={styles.paragraph}>
-              Leirz may use anonymized and aggregated user interactions to improve our own AI
+              Automation Core, Inc. may use anonymized and aggregated user interactions to improve our own AI
               integration and search quality. This data cannot be used to identify individual users.
-              You can opt out of contributing to Leirz's AI improvement through your account settings.
+              You can opt out of contributing to Layers' AI improvement through your account settings.
             </p>
           </section>
 
@@ -684,7 +684,7 @@ const PrivacyPolicy: React.FC = () => {
           <section id="location-data" style={styles.section} className="privacy-section">
             <h2 style={styles.sectionTitle} className="privacy-section-title">5. Location Data</h2>
             <p style={styles.paragraph}>
-              Location data is central to Leirz's historical discovery experience. This section
+              Location data is central to Layers' historical discovery experience. This section
               provides detailed information about how we collect, use, and protect your location information.
             </p>
 
@@ -763,7 +763,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                <strong>Deny Access:</strong> Use Leirz without location features by searching
+                <strong>Deny Access:</strong> Use Layers without location features by searching
                 manually for cities and places.
               </li>
               <li style={styles.listItem}>
@@ -862,7 +862,7 @@ const PrivacyPolicy: React.FC = () => {
                 To comply with legal obligations, court orders, subpoenas, or government requests.
               </li>
               <li style={styles.listItem}>
-                To protect the rights, property, or safety of Leirz, our users, or the public.
+                To protect the rights, property, or safety of Automation Core, Inc., our users, or the public.
               </li>
               <li style={styles.listItem}>
                 To detect, prevent, or address fraud, security issues, or technical problems.
@@ -874,7 +874,7 @@ const PrivacyPolicy: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>6.4 Business Transfers</h3>
             <p style={styles.paragraph}>
-              If Leirz is involved in a merger, acquisition, bankruptcy, or sale of assets, your
+              If Automation Core, Inc. is involved in a merger, acquisition, bankruptcy, or sale of assets, your
               information may be transferred as part of that transaction. We will notify you of
               any such change and any choices you may have regarding your information before the
               transfer occurs.
@@ -992,7 +992,7 @@ const PrivacyPolicy: React.FC = () => {
                 Go to Settings {">"} Privacy {">"} Download My Data in the app.
               </li>
               <li style={styles.listItem}>
-                Or email privacy@leirz.com with your request.
+                Or email privacy@automationcore.com with your request.
               </li>
               <li style={styles.listItem}>
                 We will provide your data within 30 days in a commonly used format (JSON/CSV).
@@ -1008,7 +1008,7 @@ const PrivacyPolicy: React.FC = () => {
                 Go to Settings {">"} Account {">"} Delete Account in the app.
               </li>
               <li style={styles.listItem}>
-                Or email privacy@leirz.com to request deletion.
+                Or email privacy@automationcore.com to request deletion.
               </li>
               <li style={styles.listItem}>
                 Deletion will be completed within 30 days (see Section 7 for retention exceptions).
@@ -1034,7 +1034,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>8.4 Right to Correction</h3>
             <p style={styles.paragraph}>
               You can update or correct your account information at any time through the app
-              settings. For corrections to other data, contact support@leirz.com.
+              settings. For corrections to other data, contact support@automationcore.com.
             </p>
 
             <h3 style={styles.subsectionTitle}>8.5 Right to Opt-Out</h3>
@@ -1065,7 +1065,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>8.6 Right to Restrict Processing</h3>
             <p style={styles.paragraph}>
               You can request that we limit how we process your data in certain circumstances.
-              Contact privacy@leirz.com to make this request.
+              Contact privacy@automationcore.com to make this request.
             </p>
           </section>
 
@@ -1135,8 +1135,8 @@ const PrivacyPolicy: React.FC = () => {
 
             <h3 style={styles.subsectionTitle}>9.3 Data Controller</h3>
             <p style={styles.paragraph}>
-              Leirz is the data controller for personal data collected through the Service.
-              For GDPR-related inquiries, contact us at privacy@leirz.com.
+              Automation Core, Inc. is the data controller for personal data collected through the Service.
+              For GDPR-related inquiries, contact us at privacy@automationcore.com.
             </p>
 
             <h3 style={styles.subsectionTitle}>9.4 Supervisory Authority</h3>
@@ -1203,7 +1203,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                Email privacy@leirz.com with your request.
+                Email privacy@automationcore.com with your request.
               </li>
               <li style={styles.listItem}>
                 Use the in-app privacy request feature in Settings {">"} Privacy.
@@ -1228,7 +1228,7 @@ const PrivacyPolicy: React.FC = () => {
             <div style={styles.warningBox}>
               <h3 style={styles.warningTitle}>Age Requirement: 13+</h3>
               <p style={styles.warningText}>
-                Leirz is not intended for children under 13 years of age. We do not knowingly collect
+                Layers is not intended for children under 13 years of age. We do not knowingly collect
                 personal information from children under 13.
               </p>
             </div>
@@ -1259,7 +1259,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>11.3 Parental Rights</h3>
             <p style={styles.paragraph}>
               If you are a parent or guardian and believe your child under 13 has provided us with
-              personal information, please contact us immediately at privacy@leirz.com. You have
+              personal information, please contact us immediately at privacy@automationcore.com. You have
               the right to:
             </p>
             <ul style={styles.list}>
@@ -1386,7 +1386,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                Use a strong, unique password for your Leirz account.
+                Use a strong, unique password for your Layers account.
               </li>
               <li style={styles.listItem}>
                 Enable two-factor authentication if available.
@@ -1398,7 +1398,7 @@ const PrivacyPolicy: React.FC = () => {
                 Do not share your account credentials with others.
               </li>
               <li style={styles.listItem}>
-                Report any suspicious activity to security@leirz.com.
+                Report any suspicious activity to security@automationcore.com.
               </li>
             </ul>
           </section>
@@ -1455,7 +1455,7 @@ const PrivacyPolicy: React.FC = () => {
             <h3 style={styles.subsectionTitle}>13.3 Policy Version History</h3>
             <p style={styles.paragraph}>
               We maintain an archive of previous policy versions. You can request access to previous
-              versions by contacting privacy@leirz.com.
+              versions by contacting privacy@automationcore.com.
             </p>
           </section>
 
@@ -1468,15 +1468,15 @@ const PrivacyPolicy: React.FC = () => {
             </p>
 
             <div style={styles.contactBox}>
-              <h3 style={styles.contactTitle}>Leirz Privacy Team</h3>
+              <h3 style={styles.contactTitle}>Automation Core, Inc. Privacy Team</h3>
               <div style={styles.contactGrid} className="privacy-contact-grid">
                 <div style={styles.contactItem}>
                   <p style={styles.contactLabel}>Privacy Inquiries</p>
-                  <p style={styles.contactValue}>privacy@leirz.com</p>
+                  <p style={styles.contactValue}>privacy@automationcore.com</p>
                 </div>
                 <div style={styles.contactItem}>
                   <p style={styles.contactLabel}>General Support</p>
-                  <p style={styles.contactValue}>support@leirz.com</p>
+                  <p style={styles.contactValue}>support@automationcore.com</p>
                 </div>
               </div>
             </div>
@@ -1487,7 +1487,7 @@ const PrivacyPolicy: React.FC = () => {
             </p>
             <ul style={styles.list}>
               <li style={styles.listItem}>
-                Your full name and email address associated with your Leirz account.
+                Your full name and email address associated with your Layers account.
               </li>
               <li style={styles.listItem}>
                 A clear description of your request or concern.
@@ -1545,7 +1545,7 @@ const PrivacyPolicy: React.FC = () => {
         <footer style={styles.footer}>
           <div style={styles.footerContent}>
             <p style={styles.footerText}>
-              &copy; {new Date().getFullYear()} Leirz. All rights reserved.
+              &copy; {new Date().getFullYear()} Layers. All rights reserved.
             </p>
             <div style={styles.footerLinks}>
               <Link to="/" style={styles.footerLink} className="privacy-footer-link">Home</Link>

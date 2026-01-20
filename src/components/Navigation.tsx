@@ -85,7 +85,7 @@ const bottomLineVariants = {
 };
 
 const Navigation: React.FC<NavigationProps> = ({
-  brandName = 'Leirz',
+  brandName = 'Layers',
   links = defaultNavLinks,
   className = '',
 }) => {

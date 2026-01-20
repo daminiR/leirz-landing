@@ -506,7 +506,7 @@ const Hero: React.FC = () => {
               custom={0}
               variants={fastFadeIn}
             >
-              <span style={styles.brandName}>Leirz</span>
+              <span style={styles.brandName}>Layers</span>
             </motion.div>
 
             {/* Headline - no floating animation on initial load */}
