@@ -96,7 +96,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
         <div style={styles.content}>
           {/* Brand Logo */}
           <div style={styles.logoContainer}>
-            <img src="/leirz-landing/logo.png" alt="Leirz" style={styles.logoImage} />
+            <img src="/leirz-landing/logo-icon.png" alt="Leirz" style={styles.logoImage} />
           </div>
 
           {/* Progress Bar */}
