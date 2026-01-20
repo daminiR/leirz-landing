@@ -1,0 +1,109 @@
+// Global Styles for Leirz
+// =======================
+
+@import './variables.less';
+
+// Google Fonts - Space Grotesk
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+// CSS Reset & Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: @font-family;
+  background-color: @neutral-100;
+  color: @neutral-800;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+// Typography Base
+h1, h2, h3, h4, h5, h6 {
+  font-family: @font-family;
+  font-weight: 600;
+  line-height: 1.2;
+  color: @neutral-800;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: @neutral-700;
+}
+
+// Links
+a {
+  color: @primary-500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: @primary-600;
+  }
+}
+
+// Buttons Base
+button {
+  font-family: @font-family;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+// Inputs Base
+input, textarea, select {
+  font-family: @font-family;
+  font-size: 1rem;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Lists
+ul, ol {
+  list-style: none;
+}
+
+// Selection
+::selection {
+  background-color: @primary-300;
+  color: @neutral-800;
+}

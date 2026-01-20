@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "Damini Rijhwani <rijhwanidamini@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "4.24.0",
+    "enquire-js": "^0.2.1",
+    "framer-motion": "^12.26.2",
+    "rc-queue-anim": "^2.0.0",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-tween-one": "^3.0.6",
+    "umi": "^4.4.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}

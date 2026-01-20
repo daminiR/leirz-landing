@@ -1,0 +1,343 @@
+// Navigation Component Styles
+// Leirz Design - Refined elegant design with peachy coral gradient
+
+@nav: navigation;
+
+// Leirz Refined Color Palette
+@orange-primary: #FF6B00;
+@orange-secondary: #FFA500;
+@text-primary: #374151;
+@text-hover: #FF6B00;
+@neutral-100: #F9FAFB;
+@shadow-color: rgba(0, 0, 0, 0.04);
+@shadow-hover: rgba(0, 0, 0, 0.06);
+
+// Background and Glass - More subtle glassmorphism
+@nav-bg: rgba(255, 255, 255, 0.92);
+@nav-shadow: 0 1px 3px @shadow-color, 0 4px 12px rgba(0, 0, 0, 0.03);
+
+// Mixins
+.gradient-text() {
+  background: linear-gradient(135deg, @orange-primary 0%, @orange-secondary 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.smooth-transition() {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Main Navigation Container - Slim and elegant
+.@{nav} {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: @nav-bg;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: @nav-shadow;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+// Container for nav content - Slim padding
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Logo
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1010;
+}
+
+.logoText {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  .gradient-text();
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  .smooth-transition();
+
+  &:hover {
+    opacity: 0.85;
+    transform: scale(1.01);
+  }
+}
+
+.logoImage {
+  height: 36px;
+  width: auto;
+  .smooth-transition();
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.logoIcon {
+  height: 34px;
+  width: auto;
+  margin-right: 8px;
+  .smooth-transition();
+}
+
+// Desktop Navigation
+.desktopNav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+// Navigation Links - Elegant with smooth hover
+.navLink {
+  position: relative;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: @text-primary;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  .smooth-transition();
+
+  &:hover {
+    color: @text-hover;
+    background: rgba(255, 107, 0, 0.06);
+  }
+
+  &.active {
+    color: @orange-primary;
+  }
+}
+
+// Active indicator - Modern pill shape
+.activeIndicator {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, @orange-primary 0%, @orange-secondary 100%);
+  box-shadow: 0 2px 8px rgba(255, 107, 0, 0.4);
+}
+
+// Hamburger Menu Button - Refined
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(55, 65, 81, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1010;
+  .smooth-transition();
+
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 107, 0, 0.3);
+    box-shadow: 0 2px 8px rgba(255, 107, 0, 0.15);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.25);
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+}
+
+// Hamburger Lines
+.hamburgerLine {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: linear-gradient(90deg, @orange-primary 0%, @orange-secondary 100%);
+  border-radius: 2px;
+  transform-origin: center;
+
+  &:nth-child(1) {
+    margin-bottom: 5px;
+  }
+
+  &:nth-child(3) {
+    margin-top: 5px;
+  }
+}
+
+// Mobile Menu Backdrop - Subtle
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(55, 65, 81, 0.3);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 999;
+}
+
+// Mobile Navigation Menu - Refined with smooth animations
+.mobileNav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(55, 65, 81, 0.06);
+  padding: 12px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 1005;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+// Mobile Navigation Links - Modern pill-shaped active state
+.mobileNavLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: @text-primary;
+  text-decoration: none;
+  border-radius: 14px;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  .smooth-transition();
+
+  &:hover {
+    color: @text-hover;
+    background: rgba(255, 107, 0, 0.06);
+    transform: translateX(4px);
+  }
+
+  &.active {
+    color: @orange-primary;
+    background: linear-gradient(135deg, rgba(255, 107, 0, 0.08) 0%, rgba(255, 165, 0, 0.08) 100%);
+    border: 1px solid rgba(255, 107, 0, 0.12);
+  }
+}
+
+.mobileNavLinkText {
+  position: relative;
+
+  .mobileNavLink.active & {
+    .gradient-text();
+  }
+}
+
+// Mobile Active Indicator - Pill shaped
+.mobileActiveIndicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, @orange-primary 0%, @orange-secondary 100%);
+  box-shadow: 0 0 8px rgba(255, 107, 0, 0.5);
+}
+
+// Responsive Adjustments
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 12px 24px;
+  }
+
+  .logoText {
+    font-size: 24px;
+  }
+
+  .navLink {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 12px 20px;
+  }
+
+  .logoText {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px 16px;
+  }
+
+  .logoText {
+    font-size: 22px;
+  }
+
+  .hamburger {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hamburgerLine {
+    width: 16px;
+
+    &:nth-child(1) {
+      margin-bottom: 4px;
+    }
+
+    &:nth-child(3) {
+      margin-top: 4px;
+    }
+  }
+
+  .mobileNavLink {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+}
+
+// Subtle glow animation for active states
+@keyframes subtleGlow {
+  0%, 100% {
+    box-shadow: 0 2px 8px rgba(255, 107, 0, 0.35);
+  }
+  50% {
+    box-shadow: 0 2px 12px rgba(255, 107, 0, 0.5);
+  }
+}
+
+.activeIndicator {
+  animation: subtleGlow 2.5s ease-in-out infinite;
+}
+
+.mobileActiveIndicator {
+  animation: subtleGlow 2.5s ease-in-out infinite;
+}
